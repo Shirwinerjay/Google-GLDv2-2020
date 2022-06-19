@@ -3,13 +3,13 @@
 [![Contributors][contributors-shield]][contributors-url]
 
 <div align="center">
-  <h3 align="center">Google Landmark Recognition Challenge 2020</h3>
+  <h1 align="center">Google Landmark Recognition Challenge 2020</h1>
 </div>
 
 <!-- ABOUT THE CHALLENGE -->
 ## About The Challenge
 
-[Google Landmark Recognition 2020](https://www.kaggle.com/competitions/landmark-recognition-2020/) was the third instance of the challenge sponsored by Google and hosted on Kaggle. This competition challenges Kagglers to build models that recognize the correct landmark (if any) on a public and private test set of real pictures captured by Google operators.
+[Google Landmark Recognition 2020](https://www.kaggle.com/competitions/landmark-recognition-2020/) was the third instance of the competition sponsored by Google and hosted on Kaggle. It challenged Kagglers to build models that recognize the correct landmark (if any) on a public and a private test set of real pictures taken by Google operators.
 
 ### GLDv2
 
@@ -17,12 +17,12 @@ The training data for the competition comes from a cleaned version of the origin
 
 ### Challenges
 
-The biggest challenges in this competition and to the landmark recognition task were captured at the GLDv2 construction, containing:
+The biggest challenges in this competition and to the landmark recognition task are captured by the GLDv2 dataset, containing:
 1. Extremely skewed class distribution. While famous landmarks might have tens of thousands of image samples, 57% of classes have at most 10 images and 38% of classes have at most 5 images.
 2. Intra-class variability. Landmarks have views from different vantage points, and of different details, as well as both indoor and outdoor views of buildings.
 3. Out-of-domain query images. The query set consists of only 1.1% images of landmarks and 98.9% out-of-domain images, for which no result should be expected.
 
-More details about the dataset construction, its cleaned version, and the particular challenges related to the Landmark Recognition task are available in the [paper](https://arxiv.org/abs/2004.01804).
+More details about the dataset construction, its cleaned version, and other particular challenges related to the Landmark Recognition task are available in the [dataset paper](https://arxiv.org/abs/2004.01804).
 
 ## About this Repository
 
@@ -30,7 +30,7 @@ This repository contains my implementation of a metric learning solution with co
 
 ### My Kaggle Notebook
 
-The notebooks in this repository were split from my original [Kaggle notebook](https://www.kaggle.com/code/erichhenrique/gldv2-2020/notebook) to enable rendering on Github. Please considering leaving an upvote on my notebook if you find the content helpful for your applications.
+The notebooks in this repository were split from my original [Kaggle notebook](https://www.kaggle.com/code/erichhenrique/gldv2-2020/notebook) to enable rendering on Github. Please consider leaving an upvote on my notebook if you find the content helpful for your applications!
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
