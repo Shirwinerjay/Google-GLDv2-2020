@@ -6,6 +6,8 @@
   <h1 align="center">Google Landmark Recognition Challenge 2020</h1>
 </div>
 
+![Architecture](png/Architecture.PNG)
+
 <!-- ABOUT THE CHALLENGE -->
 ## About The Challenge
 
@@ -23,6 +25,9 @@ The biggest challenges in this competition and to the landmark recognition task 
 3. Out-of-domain query images. The query set consists of only 1.1% images of landmarks and 98.9% out-of-domain images, for which no result should be expected.
 
 More details about the dataset construction, its cleaned version, and other particular challenges related to the Landmark Recognition task are available in the [dataset paper](https://arxiv.org/abs/2004.01804).
+
+## Medium Article
+I dedicated a [Medium Article](https://medium.com/mlearning-ai/metric-learning-for-landmark-image-recognition-6c1b8e0902bd) where I explain, illustrate, and implement the ideas behind a baseline architecture for landmark image recognition. There, I cover its core concepts from theory to practical results.
 
 ## About this Repository
 
